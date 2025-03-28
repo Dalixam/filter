@@ -1,0 +1,23 @@
+! Title: Lasses custom filter
+! Version: 0.1
+! Last modified: 28 Mar 2025
+! Homepage: https://dalixam.net
+! Description: Making work life easier. Created from 4o template.
+
+! === DOMAIN BLOCKING ===
+||ads.example.com^
+||trackers.example.net^
+||annoying-popup.org^
+||doubleclick.net^
+
+! === ELEMENT HIDING RULES ===
+example.com##.ad-banner
+example.net##.sponsored-box
+anotherexample.org##.popup
+
+! === EXCEPTION RULES (optional, to allow content) ===
+@@||friendlyads.mysite.com^
+
+! Add more rules below as needed.
+
+*beyondwords*
